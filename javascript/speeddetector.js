@@ -1,0 +1,27 @@
+//added currentSpeed variable to be able to follow up the code
+const speedLimit = 70;
+const kmPerPoint =5;
+let currentSpeed = 180;
+
+
+let points;
+// the argument below suggests if the currentspeed is within the required speed
+//the points should be returned as ok
+if (currentSpeed<=speedLimit){
+   points='ok'
+}
+//it further ahead states that if its above the required speed it should add a 
+//point every 5km/hr more of speed
+else {
+     points=((currentSpeed - speedLimit)/5)
+}
+//the function here confirms if points exceed the set amount the license gets suspended
+if (points >12){
+    console.log("License suspended")
+}
+//this function calls for the points
+else{
+    console.log(`points:${points}`)
+}
+// the points are printed
+console.log(points);
