@@ -8,6 +8,18 @@
 It's a code challenge showcasing what i learnt last week. it has three questions each done on a separate file for easier follow up
 
 
+## Installation
+You use git clone to be able to download the repo in GitHub
+
+## Installation Requirements
+Git
+
+### Installation instruction
+```
+Git clone git@github.com:Faisal-zaid/code-challenge-01.git
+
+
+
 ## Technologies used
 
 Github
