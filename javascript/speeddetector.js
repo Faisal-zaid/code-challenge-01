@@ -1,7 +1,7 @@
 //added currentSpeed variable to be able to follow up the code
 const speedLimit = 70;
 const kmPerPoint =5;
-let currentSpeed = 180;
+let currentSpeed = 80;
 
 
 let points;
@@ -17,11 +17,11 @@ else {
 }
 //the function here confirms if points exceed the set amount the license gets suspended
 if (points >12){
-    console.log("License suspended")
+    points=("License suspended")
 }
 //this function calls for the points
 else{
-    console.log(`points:${points}`)
+    console.log(points)
 }
 // the points are printed
 console.log(points);
