@@ -42,13 +42,14 @@ else{
 //calculates the nssf eligible to be payed
 let netSalary;
 
-netSalary=basicSalary*12;
+deductions=nssf+nhif+payee
+netSalary=glossSalary-(deductions);
 
 //calculates net salary by multiplying basic salary by 12 months
 console.log(payee)
 console.log(glossSalary)
 console.log(basicSalary)
-console.log(NHIF)
-console.log(NSSF)
+console.log(nhif)
+console.log(nssf)
 console.log(netSalary)
-//line 48 to 53 prints the output
+//line 48 to 53 prints the output for all transactions
