@@ -1,4 +1,5 @@
-const marks= 69;
+function gradeCalculator(marks){
+//const marks=69;
 // the marks have been declared so that i could gauge the code is working
 let grade;
 
@@ -27,6 +28,11 @@ else{
 }
 //line 13 to line 27 are the arguments that are meant to check where
 //the marks declared above fit for which grade
-console.log(grade)
+//console.log(grade)
 
 //prints the grade
+
+return grade;
+}
+
+console.log(gradeCalculator(47))

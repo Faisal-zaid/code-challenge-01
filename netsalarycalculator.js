@@ -1,5 +1,8 @@
-const basicSalary = 50000;
-const benefits = 10000;
+function malipo(basicSalary, benefits){
+
+//const basicSalary = 50000;
+//const benefits = 10000;
+
 glossSalary=basicSalary + benefits
 //glossSalary has been gotten by adding basicSalary and benefits
 
@@ -45,11 +48,18 @@ let netSalary;
 deductions=nssf+nhif+payee
 netSalary=glossSalary-(deductions);
 
+return {basicSalary, benefits,payee,glossSalary,nhif,nssf,netSalary};
+
+}
+
+
+console.log(malipo(5000, 1000))
+
 //calculates net salary by multiplying basic salary by 12 months
-console.log(payee)
-console.log(glossSalary)
-console.log(basicSalary)
-console.log(nhif)
-console.log(nssf)
-console.log(netSalary)
+//console.log(payee)
+//console.log(glossSalary)
+//console.log(basicSalary)
+//console.log(nhif)
+//console.log(nssf)
+//console.log(netSalary)
 //line 48 to 53 prints the output for all transactions
